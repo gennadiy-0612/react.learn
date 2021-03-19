@@ -1,5 +1,5 @@
 import './Headmenu.css'
-import '../imgs/Images'
+import Images from "../imgs/Images"
 import {
     BrowserRouter as Router,
     Switch,
@@ -32,7 +32,7 @@ export default function Headmenu() {
                         <About/>
                     </Route>
                     <Route path="/images">
-                        <Images/>
+                        <Pics/>
                     </Route>
                     <Route path="/">
                         <Home/>
@@ -51,6 +51,6 @@ function About() {
     return <h2>About</h2>;
 }
 
-function Images() {
+function Pics() {
     return <Images/>;
 }
