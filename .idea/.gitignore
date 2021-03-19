@@ -6,3 +6,6 @@
 /dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/
+/vcs.xml
+/deployment.xml
+/w3c.taken.iml
